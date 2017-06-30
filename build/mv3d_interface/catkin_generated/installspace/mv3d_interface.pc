@@ -1,0 +1,8 @@
+prefix=/home/jinbeibei/catkin_ws/install
+
+Name: mv3d_interface
+Description: Description of mv3d_interface
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/jinbeibei/catkin_ws/install/lib 
+Requires: 
