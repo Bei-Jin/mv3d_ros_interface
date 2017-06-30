@@ -1,0 +1,2 @@
+这个工程用于ros节点打包，创建一个ros节点订阅ros的点云消息，然后回调函数对订阅的点云做处理，所做处理包括先用PCL库投影得到bird_view,front_view,back_view,之后将处理结果送人FRCNN的接口，
+在FRCNN的detector的api里利用训练的模型进行预测，得到边框，方向等预测结果。
